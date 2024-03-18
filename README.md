@@ -9,6 +9,14 @@ To calculate the RFM score we need the following info for each customer:
 •	a unique customer id
 •	date of transaction/order
 •	transaction/order amount
+
+
+
+
+
+
+
+
 library(dplyr)
 > setwd("C:\\Users\\TOSHIBA\\Desktop\\Data Codes\\Apriori")
 > rfmders  <- read.csv('RFMler.csv')
